@@ -1,10 +1,9 @@
 <template>
-  <div class=" bg-purple-700 text-white items-center justify-center text-xl flex flex-col">
-    hello chelimo
-  </div>
+  
   <div class=" flex flex-col">
           <nuxt-link to="" class=" flex flex-row justify-end bg-slate-900 text-white text-xl pr-3">Home</nuxt-link >
-          <nuxt-link to="" class=" flex flex-row justify-end bg-slate-900 text-white text-xl pr-3">Home</nuxt-link >
+          <nuxt-link to="" class=" flex flex-row justify-end bg-slate-900 text-white text-xl pr-3">Login</nuxt-link >
+    </div>
     <div class=" flex items-center justify-center bg-slate-600 flex-col p-2">
       <h1 class=" text-6xl text-white">NUXT CRUD <span class=" text-yellow-400">TRY ME</span></h1>
     <input type="text" placeholder=" enter your item" v-model="newItemText" class=" p-4 rounded-md mt-5" required/>
@@ -15,7 +14,7 @@
         <button @click="editItem(item)" class=" bg-slate-900 text-white mt-3 mr-6 border-white rounded-sm">edit</button>
         <button @click="deleteItem(item)" class=" bg-slate-900 text-white mt-3 border-white rounded-sm">Delete</button>
       </li>
-    </div>
+    
   </div>
     <div v-if="editingItem" class=" gap-3 flex flex-row items-center justify-center">
       <input type="text" v-model="editingItem.text" />
@@ -26,7 +25,7 @@
   <div class=" flex items-center justify-center">
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <a href="#">
-      <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
+      <img class="rounded-t-lg" src="../assets/image.jpg" />
   </a>
   <div class="p-5">
       <a href="#">
