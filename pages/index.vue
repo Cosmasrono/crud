@@ -1,4 +1,7 @@
 <template>
+  <div class=" bg-purple-700 text-white items-center justify-center text-xl flex flex-col">
+    hello chelimo
+  </div>
   <div class=" flex flex-col">
           <nuxt-link to="" class=" flex flex-row justify-end bg-slate-900 text-white text-xl pr-3">Home</nuxt-link >
           <nuxt-link to="" class=" flex flex-row justify-end bg-slate-900 text-white text-xl pr-3">Home</nuxt-link >
